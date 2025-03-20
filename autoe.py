@@ -6,7 +6,7 @@ def move_mouse():
     while True:
    
         x, y = pyautogui.position()
-        #Tudo posso!
+        
         pyautogui.moveTo(x + 330, y, duration=0.5)
         
         pyautogui.moveTo(x, y, duration=0.5)
